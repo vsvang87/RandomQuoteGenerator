@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&family=Lato:ital,wght@0,400;1,300;1,400&family=Montserrat:wght@200&family=PT+Sans&family=Quicksand:wght@500&family=Spline+Sans:wght@300&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+.container {
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+}
+.inner__container {
+  background-color: lightsteelblue;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  width: 50%;
+  border: 2px solid gray;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  box-shadow: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  border: none;
+}
+.quote__value {
+  height: 10rem;
+  width: 30rem;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding-top: 2rem;
+}
+.quote__gen h2 {
+  text-align: center;
+  padding: 1rem 0;
+}
+.quote__btn {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
