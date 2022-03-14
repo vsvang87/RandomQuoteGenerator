@@ -10,37 +10,41 @@ body {
   line-height: 1.2rem;
 }
 .container {
-  background-color: white;
+  background-color: lightgray;
   height: 100vh;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .inner__container {
-  background-color: lightsteelblue;
+  background-color: #233142;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 50vh;
-  width: 50%;
-  border: 2px solid gray;
-  position: absolute;
-  top: 20%;
-  left: 25%;
-  box-shadow: rgba(0, 0, 0, 0.3);
+  min-height: 50vh;
+  width: min(80%, 50rem);
   border-radius: 15px;
   border: none;
 }
+.quote__gen {
+  width: 100%;
+}
 .quote__value {
-  height: 10rem;
-  width: 30rem;
+  min-height: 10rem;
+  width: min(90%, 400px);
+  margin-inline: auto;
   text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.5);
+  color: white;
   border-radius: 10px;
   padding-top: 2rem;
+  display: flex;
 }
 .quote__gen h2 {
   text-align: center;
   padding: 1rem 0;
+  color: white;
 }
 .quote__btn {
   font-size: 1.2rem;
@@ -54,4 +58,9 @@ body {
 .quote__btn:hover {
   background-color: lightcoral;
   color: white;
+}
+@media (max-width: 1025px) {
+  .quote__btn {
+    margin-top: 1.5rem;
+  }
 }
