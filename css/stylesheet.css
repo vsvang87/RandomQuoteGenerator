@@ -26,7 +26,7 @@ body {
   position: absolute;
   top: 20%;
   left: 25%;
-  box-shadow: rgba(0, 0, 0, 0.5);
+  box-shadow: rgba(0, 0, 0, 0.3);
   border-radius: 15px;
   border: none;
 }
@@ -50,4 +50,8 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+.quote__btn:hover {
+  background-color: lightcoral;
+  color: white;
 }
